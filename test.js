@@ -356,31 +356,31 @@
 // }
 // console.log(c);
 //Bài 4
-let A = [];
+// let A = [];
 
-for (i = 0; i < 5; i++) {
-  while (true) {
-    let num = parseInt(prompt(`Mời bạn nhập vào ${i + 1}`));
-    if (!isNaN(num)) {
-      A.push(num);
-      break;
-    } else {
-      alert("Mời bạn nhập lại");
-    }
-  }
-}
-console.log(A);
-let B = [];
-let C = [];
-for (i = 0; i < A.length; i++) {
-  if (A[i] % 2 === 0) {
-    B.push(A[i]);
-  } else {
-    C.push(A[i]);
-  }
-}
-console.log(B);
-console.log(C);
+// for (i = 0; i < 5; i++) {
+//   while (true) {
+//     let num = parseInt(prompt(`Mời bạn nhập vào ${i + 1}`));
+//     if (!isNaN(num)) {
+//       A.push(num);
+//       break;
+//     } else {
+//       alert("Mời bạn nhập lại");
+//     }
+//   }
+// }
+// console.log(A);
+// let B = [];
+// let C = [];
+// for (i = 0; i < A.length; i++) {
+//   if (A[i] % 2 === 0) {
+//     B.push(A[i]);
+//   } else {
+//     C.push(A[i]);
+//   }
+// }
+// console.log(B);
+// console.log(C);
 
 // bài 6
 // let arr = [];
@@ -422,3 +422,33 @@ console.log(C);
 // }
 
 // console.log("Các chuỗi con của chuỗi đã nhập:", substrings);
+
+//Bài 7 :Giỏi
+// let input = prompt("Mời bạn nhập nhé");
+// let output = [];
+// let i = 0;
+// while (i < input.length) {
+//   let j = i;
+//   let be = "";
+//   while (j < input.length) {
+//     be += input[j];
+//     output.push(be);
+//     j++;
+//   }
+//   i++;
+// }
+// console.log(output);
+//Bài 8
+let arr = [1, 2, 1, 3, 4, "f"];
+console.log("Mảng ban đầu:", arr);
+
+// Xóa đi phần tử đầu tiên của mảng
+if (arr.length > 0) {
+  arr.shift();
+}
+
+// In mảng ra màn hình sau khi xóa phần tử đầu tiên
+console.log("Mảng sau khi xóa phần tử đầu tiên:", arr);
+function namess(params) {
+
+}
